@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1804865807717196944}
   - component: {fileID: 472163145818421861}
   - component: {fileID: 6819257307908419268}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 2790122820439524429}
   - component: {fileID: 1507880923873502971}
   - component: {fileID: 7873472014132846813}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 8735103652672670656}
   - component: {fileID: 4013838163067424419}
   - component: {fileID: 3788475706899519564}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 6715973382635395631}
   - component: {fileID: 466287150351366951}
   - component: {fileID: 1875103096412238425}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 7215025140115858213}
   - component: {fileID: 7060354294026212772}
   - component: {fileID: 5822179113542279033}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 581129402807384143}
   - component: {fileID: 7691890935830403258}
   - component: {fileID: 944382589178872602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

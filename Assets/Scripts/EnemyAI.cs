@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Ponlo en el prefab del enemigo junto con un NavMeshAgent.
@@ -38,6 +39,14 @@ public class EnemyAI : MonoBehaviour
         {
             _timer = 0f;
             _agent.SetDestination(_player.position);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

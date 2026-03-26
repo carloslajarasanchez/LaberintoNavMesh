@@ -40,11 +40,15 @@ public class Maze : MonoBehaviour
 
     private IEnumerator BakeNavMeshDelayed()
     {
-        yield return new WaitForSeconds(0.2f); // da tiempo a que todo esté instanciado
+        // Aumenta un poco el tiempo si el laberinto es muy grande
+        yield return new WaitForSeconds(0.5f);
+
         if (_navMeshSurface != null)
         {
+            // Esto limpia datos viejos antes de calcular los nuevos
+            _navMeshSurface.RemoveData();
             _navMeshSurface.BuildNavMesh();
-            Debug.Log("NavMesh baked.");
+            Debug.Log("NavMesh baked con nuevos parámetros.");
         }
     }
 
